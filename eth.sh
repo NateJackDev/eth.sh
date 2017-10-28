@@ -14,7 +14,7 @@
     if [ -e /.os_check ]
     then
         :
-    elif [[ "$(uname -v)" =~ .*16.04.* ]]
+    elif [[ "$(uname -v)" =~ .*16.* ]]
     then 
         touch /.os_check
     else
